@@ -17,7 +17,7 @@ The main players in the MVVM pattern are:
 
 The architecture of this project is as follows:
 
-<img src="https://github.com/oliver1112/FunNews/blob/main/assets/MVVM.png" alt="structure" width="550"/>
+<img src="https://github.com/oliver1112/FunNews/blob/main/assets/MVVM.png" alt="structure" width="450"/>
 
 ## Retrofit
 This project creates the network layer with Retrofit and its underlying OkHttp. The Retrofit are RESTful API setup on Android.
@@ -64,7 +64,11 @@ Room is built on top of SQLite. It was introduced in 2018. Room has the followin
 - Entity represents a table within the database.
 - DAO contains the methods used for accessing the database.
 
-why need Room:
+The advantage of Room:
 - Sometimes apps doesn’t have network, like in tunnel or on plane.
-- Apps need to support offline mode.
-- Hybrid apps consume both network and local generated structure data.
+- App need to support offline mode.
+- App consume both network and local generated structure data.
+
+## Ideas for Future Work
+- Add a social share button to share the news through SMS, email, WeChat, and Facebook.
+- Use Kotlin to write this App to better handle multi-thread cases.
