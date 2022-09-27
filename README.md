@@ -2,9 +2,9 @@
 This is a Personalized News App with Android.
 
 ## App Demo 
+<img src="https://github.com/oliver1112/FunNews/blob/main/assets/newsdemo.gif" alt="structure" width="300"/>
 
-![demo](https://github.com/oliver1112/FunNews/blob/main/assets/onlineorder-demo.gif)
-- In Home fragment, click like button or swipe the card right to save news. And click the dislike or swipe the card left to view the next one.
+- In Home fragment, click the like button or swipe the card right to save news. And click the dislike or swipe the card left to view the next one.
 - View the saved news detail at Save fragment. Click the delete button to remove it from local storage.
 - Use Search fragment to search the keyword of news you like. 
 
