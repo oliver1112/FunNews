@@ -1,4 +1,5 @@
 # FunNews
+This is a Personalized News App with Android.
 
 ## App Demo 
 
