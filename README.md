@@ -3,6 +3,11 @@ This is a Personalized News App with Android.
 
 ## App Demo 
 
+
+- In Home fragment, click like button or swipe the card right to save news. And click the dislike or swipe the card left to view the next one.
+- View the saved news detail at Save fragment. Click the delete button to remove it from local storage.
+- Use Search fragment to search the keyword of news you like. 
+
 ## MVVM
 The main players in the MVVM pattern are:
 
