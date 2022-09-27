@@ -11,6 +11,7 @@ The main players in the MVVM pattern are:
 
 The architecture of this project is as follows:
 
+<img src="https://github.com/oliver1112/FunNews/blob/main/assets/MVVM.png" alt="structure" width="550"/>
 
 ## Retrofit
 This project creates the network layer with Retrofit and its underlying OkHttp. The Retrofit are RESTful API setup on Android.
@@ -47,6 +48,9 @@ fragments. Page navigation and app flow is controlled in one place, a navigation
 - Type safety with fragment safe args, it’s now been abstracted away.
 - Great support for deeplinks with back stack handling.
 
+The navigation graph of fragments are as follows:
+
+<img src="https://github.com/oliver1112/FunNews/blob/main/assets/Navigation.png" alt="ERD" width="700"/>
 
 ## Room Database
 Room is built on top of SQLite. It was introduced in 2018. Room has the following concepts:
